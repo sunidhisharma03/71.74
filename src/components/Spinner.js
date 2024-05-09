@@ -6,8 +6,8 @@ import './Spinner.css';
 
 function Spinner() {
   return (
-    <div class="spinner">
-    <div class="spinner1"></div>
+    <div className="spinner">
+    <div className="spinner1"></div>
     </div>
     
   );
