@@ -35,9 +35,8 @@
   margin-left: 0.5rem;
   font-size: 1.8rem;
 }
-.allign-end{
+.allign-end {
   margin-left: 500px;
-
 }
 .nav-menu {
   display: flex;
@@ -49,9 +48,7 @@
 }
 
 .nav-item {
-
   height: 80px;
- 
 }
 
 .nav-links {
