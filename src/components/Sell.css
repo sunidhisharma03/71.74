@@ -1,0 +1,52 @@
+.sell-container {
+
+  position: relative;
+  height: 450px;
+  background-color: #202020;
+}
+
+
+.sell-container h2 {
+  margin-left: 20px;
+  color: white; /* Set text color to white */
+}
+
+.sell-container input[type='text'] {
+  margin-top: 30px;
+  width: 20%;
+  margin-left: 425px;
+  height: 40px; 
+  color: black; /* Set text color to black */
+}
+
+.sell-container button {
+  background-color: red; /* Set button background color to red */
+  color: white; /* Set button text color to white */
+  height:40px;
+  width:50px;
+  border-radius: 10px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup__content {
+  background-color: white; /* Set popup content background color to white */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.popup__content h2 {
+  margin-bottom: 10px;
+}
+
