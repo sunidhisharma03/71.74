@@ -34,7 +34,7 @@ function Cards() {
     setConfirmedValue1(inputValue1)
     setShowInput1(false)
     console.log('Value added successfully')
-    updatePowerAndRelay()
+    updatePowerAndRelay(1)
 
     try {
       const docRef = await addDoc(collection(firestore, 'energies'), {
@@ -68,7 +68,7 @@ function Cards() {
     // Set confirmed value and hide input
     setConfirmedValue2(inputValue2)
     setShowInput2(false)
-    updatePowerAndRelay()
+    updatePowerAndRelay(2)
 
     try {
       const docRef = await addDoc(collection(firestore, 'energies'), {
